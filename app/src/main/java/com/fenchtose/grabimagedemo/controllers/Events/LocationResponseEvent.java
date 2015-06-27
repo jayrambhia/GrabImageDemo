@@ -1,4 +1,4 @@
-package com.fenchtose.grabimagedemo.controllers.Events;
+package com.fenchtose.grabimagedemo.controllers.events;
 
 import android.location.Location;
 

@@ -18,7 +18,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.fenchtose.grabimagedemo.R;
-import com.fenchtose.grabimagedemo.controllers.Events.LocationRequestEvent;
+import com.fenchtose.grabimagedemo.controllers.events.LocationRequestEvent;
 import com.fenchtose.grabimagedemo.controllers.services.LocationProviderService;
 import com.fenchtose.grabimagedemo.controllers.utils.Constants;
 import com.fenchtose.grabimagedemo.models.wrappers.ImageModelWrapper;

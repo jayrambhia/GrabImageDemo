@@ -9,8 +9,8 @@ import android.os.Handler;
 import android.util.DisplayMetrics;
 import android.util.Log;
 
-import com.fenchtose.grabimagedemo.controllers.Events.LocationRequestEvent;
-import com.fenchtose.grabimagedemo.controllers.Events.LocationResponseEvent;
+import com.fenchtose.grabimagedemo.controllers.events.LocationRequestEvent;
+import com.fenchtose.grabimagedemo.controllers.events.LocationResponseEvent;
 import com.fenchtose.grabimagedemo.controllers.providers.ImageModelProvider;
 import com.fenchtose.grabimagedemo.controllers.providers.ImageProvider;
 import com.fenchtose.grabimagedemo.controllers.utils.Constants;

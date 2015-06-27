@@ -11,8 +11,8 @@ import android.os.Bundle;
 import android.os.IBinder;
 import android.util.Log;
 
-import com.fenchtose.grabimagedemo.controllers.Events.LocationRequestEvent;
-import com.fenchtose.grabimagedemo.controllers.Events.LocationResponseEvent;
+import com.fenchtose.grabimagedemo.controllers.events.LocationRequestEvent;
+import com.fenchtose.grabimagedemo.controllers.events.LocationResponseEvent;
 
 import de.greenrobot.event.EventBus;
 

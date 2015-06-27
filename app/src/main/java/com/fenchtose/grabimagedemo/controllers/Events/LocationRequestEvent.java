@@ -1,4 +1,4 @@
-package com.fenchtose.grabimagedemo.controllers.Events;
+package com.fenchtose.grabimagedemo.controllers.events;
 
 /**
  * Created by Jay Rambhia on 26/06/15.
