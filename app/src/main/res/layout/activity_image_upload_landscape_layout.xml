@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:fitsSystemWindows="false"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_scrollFlags="scroll|enterAlways"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.66"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:id="@+id/image_container"
+            android:layout_margin="12dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="8dp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_update"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:textSize="16sp"
+                android:textColor="@android:color/white"
+                android:text="Update"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_cancel"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="16dp"
+                android:textSize="16sp"
+                android:visibility="visible"
+                android:textColor="@android:color/white"
+                android:text="Cancel"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        android:id="@+id/bottom_layout"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressbar_layout"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <ProgressBar
+                android:id="@+id/progressbar"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_gravity="left"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_gravity="center_vertical"
+                android:textSize="16sp"
+                android:textColor="@color/accent_color"
+                android:text="Getting Location. Please Wait..."/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/location_textview"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="20dp"
+            android:textSize="16sp"
+            android:textColor="@color/primary_text_color"
+            android:text="Latitute and Longitude"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/address_textview"
+            android:visibility="visible"
+            android:layout_marginTop="4dp"
+            android:textSize="16sp"
+            android:paddingLeft="20dp"
+            android:text="294, 8th A Main"
+            android:textColor="@color/secondary_text_color"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

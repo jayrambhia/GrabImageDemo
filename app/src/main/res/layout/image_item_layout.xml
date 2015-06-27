@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="3dp"
+    app:contentPadding="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="200dp"
+            android:id="@+id/item_imageview"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/location_textview"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="4dp"
+            android:textSize="16sp"
+            android:textColor="@color/primary_text_color"
+            android:text="Latitute and Longitude"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/address_textview"
+            android:layout_marginTop="4dp"
+            android:textSize="16sp"
+            android:paddingLeft="4dp"
+            android:text="294, 8th A Main"
+            android:textColor="@color/secondary_text_color"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/time_textview"
+            android:textSize="15sp"
+            android:paddingLeft="4dp"
+            android:textColor="@color/secondary_text_color"
+            android:text="Updated At 29 Mar, 2015 08:00 PM"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
